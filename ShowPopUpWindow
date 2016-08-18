@@ -17,13 +17,13 @@ import javax.swing.JLabel;
 /* Name of the class has to be "Main" only if the class is public. */
 class Ideone
 {
-  private static final Timer timer = new Timer();
+    private static final Timer timer = new Timer();
   
-	public static void main (String[] args) throws java.lang.Exception
-	{
-		final JFrame frmMain = new JFrame("无边窗口测试");
-    frmMain.setAlwaysOnTop(true);
-    frmMain.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    frmMain.setLocationRelativeTo(null); 
-	}
+    public static void main (String[] args) throws java.lang.Exception
+    {
+        final JFrame frmMain = new JFrame("无边窗口测试");
+        frmMain.setAlwaysOnTop(true);
+        frmMain.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frmMain.setLocationRelativeTo(null); 
+    }
 }
